@@ -347,9 +347,9 @@ available to `docker0`:
 test:
   pre:
     - sudo bash -c "echo \"listen_addresses = '*'\" >>
-      /etc/postgresql/9.4/main/postgresql.conf"
+      /etc/postgresql/9.5/main/postgresql.conf"
     - sudo bash -c "echo \"host all all 0.0.0.0/0 trust\" >>
-      /etc/postgresql/9.4/main/pg_hba.conf"
+      /etc/postgresql/9.5/main/pg_hba.conf"
     - sudo /etc/init.d/postgresql restart
 ```
 
