@@ -17,6 +17,16 @@ collections:
   docs:
     output: true
     permalink: /:path/
+  cci2:
+    output: true
+    permalink: /2.0/:path/
+    prefix: 2.0
+    categories:
+      - overview: "Overview"
+      - getting-started: "Getting Started"
+      - language-guides: "Language Guides"
+      - configuring-circleci: "Configuring CircleCI"
+      - reference: "Reference"
 
 twitter_username: circleci
 github_username:  circleci

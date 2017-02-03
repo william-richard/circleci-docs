@@ -1,5 +1,7 @@
 {% if page.url contains "cci2" %}
 	{% include sidebar-cci2.html %}
+{% elsif page.collection == "cci2" %}
+	{% include sidebar-cci2.html %}
 {% else %}
 	{% include sidebar-cci1.html %}
 {% endif %}

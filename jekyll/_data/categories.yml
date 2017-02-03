@@ -79,8 +79,42 @@
 
 
 # CCI2 Categories
+- slug: overview
+  name: "Overview" # replace with display instead
+  display: "Overview"
+  index: overview # should just use slug instead
+  icon: "/docs/assets/img/icons/build-images.svg" # should be made optional
+  collection: cci2 # should just be a higher key
+  section: cci2 # should use collection instead
+
 - name: "Getting Started"
+  display: "Getting Started"
   slug: "getting-started"
   index: getting-started
   icon: "/docs/assets/img/icons/build-images.svg"
-  section: cci2
+  collection: cci2
+  section: cci2 # should use collection instead
+
+- name: "Language Guides"
+  display: "Language Guides"
+  slug: "language-guides"
+  index: language-guides
+  icon: "/docs/assets/img/icons/build-images.svg"
+  collection: cci2
+  section: cci2 # should use collection instead
+
+- name: "Configuring CircleCI"
+  display: "Configuring CircleCI"
+  slug: "configuring-circleci"
+  index: configuring-circleci
+  icon: "/docs/assets/img/icons/build-images.svg"
+  collection: cci2
+  section: cci2 # should use collection instead
+
+- name: "Reference"
+  display: "Reference"
+  slug: "reference"
+  index: reference
+  icon: "/docs/assets/img/icons/build-images.svg"
+  collection: cci2
+  section: cci2 # should use collection instead
